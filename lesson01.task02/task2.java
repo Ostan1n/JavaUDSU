@@ -9,7 +9,7 @@ public class task2 {
     public static void main(String args[]) {
         Random random = new Random(); // Инициализируем генератор
         Scanner scanner = new Scanner(System.in); // Инициализируем сканер
-        int n = scanner.nextInt(); // Считать с консоли
+        int n = scanner.nextInt(); // Считываем число
         for (int i = 0; i < n; i++) {
             int k = random.nextInt(100); // Получаем случайное число в диапазоне от min до max (включительно)
             // Обрабатываем исключения через try catch
